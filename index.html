@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anakatrina Mangat | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  line-height: 1.6;
+  padding: 1.5rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1, h2, h3 {
+  color: #111;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: #ff3b3f;
+  color: #fff;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect ONLY for specific sections */
+#about:hover,
+#skills:hover,
+#software:hover,
+#credentials:hover,
+#prototypes:hover,
+#contact:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-3px);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.contact-info div {
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.contact-info div a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-info div a:hover {
+  color: #ff3b3f;
+}
+
+.credentials-list {
+  text-align: center;
+}
+
+.credentials-list li {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+
+ <header class="profile-header">
+  <img src="assets/profile pic.jpg" alt="Profile Photo" class="profile-pic">
+  <div>
+    <h1>Anakatrina Mangat</h1>
+    <p>UX/UI Designer | Web & Mobile | IT Student at FEU Diliman</p>
+  </div>
+</header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills & Interests</a>
+    <a href="#software">Software</a>
+    <a href="#credentials">Credentials</a>
+    <a href="#prototypes">Prototypes</a>
+    <a href="#photos">Photography</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p>Hi, I'm Anakatrina Mangat—but you can call me Katrina or Katy! I'm an IT student at FEU Diliman, specializing in Web and Mobile Design. I love creating responsive and user-friendly websites and apps. My designs focus on minimalism and clarity, making sure users get the best experience possible.</p>
+    <p>I also enjoy photography—especially landscapes and portraits. I’m known for being detail-oriented, creative, and easy to work with in team or solo projects.</p>
+    <p><strong>Birthday:</strong> November 12, 2005</p>
+    <p><strong>Address:</strong> 69 Ninang Virginia St., BF Homes, Caloocan City</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title">Personal Skills & Interests</h2>
+    <div>
+      <span class="tag">Detail-Oriented</span>
+      <span class="tag">Creative</span>
+      <span class="tag">Tech-Savvy</span>
+      <span class="tag">Adaptable</span>
+      <span class="tag">Time Management</span>
+      <span class="tag">Productivity</span>
+      <span class="tag">Photography</span>
+    </div>
+    <h3 style="margin-top:1rem;">Interests</h3>
+    <div>
+      <span class="tag">Web & Mobile UI/UX Design</span>
+      <span class="tag">Coding</span>
+      <span class="tag">App Prototyping</span>
+    </div>
+  </section>
+
+  <section id="software" class="section">
+    <h2 class="section-title">Software Abilities</h2>
+    <div>
+      <span class="tag">Figma</span>
+      <span class="tag">Canva</span>
+      <span class="tag">HTML/CSS</span>
+      <span class="tag">Google Workspace</span>
+      <span class="tag">Microsoft Office</span>
+    </div>
+  </section>
+
+  <section id="credentials" class="section">
+    <h2 class="section-title">Credentials</h2>
+    <ul class="credentials-list">
+      <li>Student Leader, Recreation and Athletics Club – P.R.O. (2025 - 2026)</li>
+      <li>First Aid, Basic Life Support, and Disaster Preparedness Training (2025)</li>
+      <li>TVL – ICT Strand Completer (2024)</li>
+      <li>Work Immersion Completion – 80 Hours (2023)</li>
+      <li>HTML & CSS Fundamentals – July 2025 (Certiport)</li>
+    </ul>
+  </section>
+
+ <section id="prototypes" class="section">
+  <h2 class="section-title">Prototypes</h2>
+  <div class="gallery">
+    <div>
+      <a href="https://www.figma.com/proto/OeiUY3NF62pmB1ZptJ80Oz/ClimeCast-Prototype?node-id=1-1225&t=cVbzOszbgT0J9COS-1&starting-point-node-id=1%3A1225" target="_blank">
+        <img src="assets/prototype 1.jpg" alt="Prototype 1">
+      </a>
+      <p style="text-align:center; margin-top: 0.5rem;">Click here to test!</p>
+    </div>
+    <div>
+      <a href="https://www.figma.com/proto/OeiUY3NF62pmB1ZptJ80Oz/ClimeCast-Prototype?node-id=1-1225&t=cVbzOszbgT0J9COS-1&starting-point-node-id=1%3A1225" target="_blank">
+        <img src="assets/prototype 2.jpg" alt="Prototype 2">
+      </a>
+      <p style="text-align:center; margin-top: 0.5rem;">Click here to test!</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="photos" class="section">
+    <h2 class="section-title">Photography</h2>
+    <div class="gallery">
+      <img src="assets/photography 1.jpg" alt="Landscape Photo 1">
+      <img src="assets/photography 2.jpg" alt="Landscape Photo 2">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-info">
+      <div><a href="https://instagram.com/katyloveskaty" target="_blank">@katyloveskaty</a></div>
+      <div>anakatrinamangat1221@gmail.com</div>
+      <div>+63 976 169 4837</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Anakatrina Mangat. All rights reserved.
+  </footer>
+
+</body>
+</html>
